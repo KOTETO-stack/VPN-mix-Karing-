@@ -1,0 +1,9 @@
+# snowflake: WebRTC disguise
+snowflake 192.95.36.142:443 2B280B23E1107BB62ABFC40DDCC8824814F80A72
+---
+# obfs4: Noise obfuscation
+obfs4 38.229.1.78:80 C8CBDB2464FC9804A69531437BCF2BE31FDD2EE4 cert=Hmyfd2ev46gGY7NoVxA9ngrPF2zCZtzskRTzoWXbxNkzeVnGFPWmrTtILRyqCTjHR+s9dg
+---
+# meek-azure: Azure domain fronting
+meek 0.0.2.0:1 97700DFE9F483059DDC6F947C25294B895C5F1C3 url=https://meek.azureedge.net/ front=ajax.aspnetcdn.com
+---
