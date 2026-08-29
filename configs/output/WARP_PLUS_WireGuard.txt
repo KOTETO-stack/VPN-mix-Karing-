@@ -1,6 +1,20 @@
 # WARP+ 1
 [Interface]
-PrivateKey = tk6WgfFyKoNI2JTtgQXJhhwi2gQCP185uoSV5HOJe/I=
+PrivateKey = gUfl81zq1CFjxDQJuKqDHZc77o95taAYjNnuvTWPOmc=
+Address = 172.16.0.2/32, 2606:4700:110:8b82:6af2:6cd6:db62:4c74/128
+DNS = 1.1.1.1, 1.0.0.1
+MTU = 1280
+
+[Peer]
+PublicKey = bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+AllowedIPs = 0.0.0.0/0, ::/0
+Endpoint = 162.159.193.1:2408
+PersistentKeepalive = 25
+
+---
+# WARP+ 2
+[Interface]
+PrivateKey = 6J+nTf4ispfhyYHRb46HF2g82V5zR4QQ0wcymSNDIAo=
 Address = 172.16.0.2/32, 2606:4700:110:8b82:6af2:6cd6:db62:4c74/128
 DNS = 1.1.1.1, 1.0.0.1
 MTU = 1280
@@ -12,23 +26,9 @@ Endpoint = 162.159.192.1:2408
 PersistentKeepalive = 25
 
 ---
-# WARP+ 2
-[Interface]
-PrivateKey = vr4b2/4Up31OdQ+L7FnXuqhZKsV2OzhMFy/Oh04GLDg=
-Address = 172.16.0.2/32, 2606:4700:110:8b82:6af2:6cd6:db62:4c74/128
-DNS = 1.1.1.1, 1.0.0.1
-MTU = 1280
-
-[Peer]
-PublicKey = bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
-AllowedIPs = 0.0.0.0/0, ::/0
-Endpoint = 162.159.195.1:2408
-PersistentKeepalive = 25
-
----
 # WARP+ 3
 [Interface]
-PrivateKey = 3dOhmaRWHpF3V4+fFyEQ8JSkMEO4AUt5+YR9VOCDjK8=
+PrivateKey = Umdb+ZfVKn6rYvambLskFQjNi/rPq9WPjdJvNKP4DdA=
 Address = 172.16.0.2/32, 2606:4700:110:8b82:6af2:6cd6:db62:4c74/128
 DNS = 1.1.1.1, 1.0.0.1
 MTU = 1280
